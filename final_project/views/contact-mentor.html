@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Mentor - SkillMatch</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/contact-mentor.css" rel="stylesheet">
+    <link href="../assets/css/shared-nav.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../assets/images/skillmatch-logo.png" alt="SkillMatch Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="howitworks.html">How It Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="findmentor.html">Find a Mentor</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="becomementor.html">Become a Mentor</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="skills.html">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary" href="signup.html">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Form Section -->
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="mentor-info mb-4">
+                            <img src="../assets/images/placeholder-profile.jpg" alt="Mentor Profile" class="mentor-image">
+                            <h2 class="mentor-name">John Doe</h2>
+                            <p class="mentor-expertise">Web Development, JavaScript</p>
+                            <p class="mentor-experience">5 years experience</p>
+                        </div>
+                        <form id="contactMentorForm">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Your Name</label>
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Your Email</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="5" required 
+                                    placeholder="Introduce yourself and explain what you'd like to learn..."></textarea>
+                            </div>
+                            <div class="mb-3">
+                                <label for="availability" class="form-label">Your Availability</label>
+                                <input type="text" class="form-control" id="availability" required 
+                                    placeholder="e.g., Weekdays after 4PM">
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/contact-mentor.js"></script>
+</body>
+</html> 

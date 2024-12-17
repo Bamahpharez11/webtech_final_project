@@ -1,0 +1,71 @@
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --accent-color: #28a745;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#how-it-works {
+    background-color: #f4f4f4;
+}
+
+#how-it-works i {
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+#signup .card {
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border: none;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+footer {
+    background-color: #333 !important;
+}
+
+footer a:hover {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.social-links a {
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: var(--primary-color) !important;
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 50px 0;
+    }
+}
